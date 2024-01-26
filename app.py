@@ -47,6 +47,8 @@ def create_user():
 
     payload = f"Your quote for this product is {parsed}"
 
+    print(payload)
+
     return payload
 
 
